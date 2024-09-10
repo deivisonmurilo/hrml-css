@@ -24,12 +24,14 @@ header{
     align-items: center;
 }
 header > h1{
-    border: 1px dotted black;
-    flex: 0 0 200px;
+    /* border: 1px dotted black; */
+    flex: 0 0 200px; 
+    text-shadow: 2px 2px 0px black;
+    
 }
 nav{
-    border: 1px dotted black;
-    
+   /* border: 1px dotted black; */
+
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -55,4 +57,3 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
 }
-
